@@ -1,0 +1,20 @@
+﻿Build started 12/7/2016 11:01:22 PM.
+     1>Project "C:\Users\Khizar Alam\documents\visual studio 2013\Projects\GameOfLife\GameOfLife\GameOfLife.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Khizar Alam\documents\visual studio 2013\Projects\GameOfLife\GameOfLife\\include" /Zi /nologo /W3 /WX- /sdl /Od /D GLEW_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Main.cpp
+         Main.cpp
+     1>Main.cpp(87): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Khizar Alam\documents\visual studio 2013\Projects\GameOfLife\x64\Debug\GameOfLife.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Khizar Alam\documents\visual studio 2013\Projects\GameOfLife\GameOfLife\\lib" opengl32.lib glfw3.lib glew32s.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Khizar Alam\documents\visual studio 2013\Projects\GameOfLife\x64\Debug\GameOfLife.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Khizar Alam\documents\visual studio 2013\Projects\GameOfLife\x64\Debug\GameOfLife.lib" /MACHINE:X64 x64\Debug\Cell.obj
+         x64\Debug\FragmentShader.obj
+         x64\Debug\Game.obj
+         x64\Debug\Main.obj
+         x64\Debug\Shader.obj
+         x64\Debug\ShaderProgram.obj
+         x64\Debug\VertexShader.obj
+         GameOfLife.vcxproj -> C:\Users\Khizar Alam\documents\visual studio 2013\Projects\GameOfLife\x64\Debug\GameOfLife.exe
+     1>Done Building Project "C:\Users\Khizar Alam\documents\visual studio 2013\Projects\GameOfLife\GameOfLife\GameOfLife.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.78
